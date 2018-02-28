@@ -2,4 +2,4 @@
 From tomcat:8-jre8
 
 # Copy to images tomcat path
-ADD target/*.war /usr/local/tomcat/webapps/
+ADD $PWD/*.war /usr/local/tomcat/webapps/
